@@ -16,10 +16,28 @@
 }
 
 .content {
-    width: 1280px;
+    width: 800px;
 }
+
+/* HEADER STYLING */
 
 header {
     background-color: var(--dark-background-color);
     display: flex;
+    justify-content: center;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    color: var(--header-logo-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--header-link-color);
 }

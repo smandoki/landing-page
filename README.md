@@ -1,6 +1,6 @@
 # The Odin Project landing-page exercise
 
 Skills demonstrated
-*HTML
-*CSS
-  *flexbox
+* HTML
+* CSS
+  * flexbox

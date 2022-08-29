@@ -1,0 +1,25 @@
+:root {
+    --dark-background-color: #1F2937;
+    --hero-text-color: #E5E7EB;
+    --hero-heading-color: #F9FAF8;
+    --header-link-color: #E5E7EB;
+    --header-logo-color: #F9FAF8;
+    --button-color: #3882F6;
+    --information-heading-color: #1F2937;
+    --quote-section-background-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1280px;
+}
+
+header {
+    background-color: var(--dark-background-color);
+    display: flex;
+}

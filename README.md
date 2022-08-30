@@ -4,3 +4,5 @@ Skills demonstrated
 * HTML
 * CSS
   * flexbox
+
+Site link https://smandoki.github.io/landing-page/

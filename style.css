@@ -21,7 +21,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif, 'Times New Roman', Times, serif;
 }
 
-.content {
+.container {
     width: 1000px;
 }
 
@@ -34,7 +34,7 @@ header {
     padding: 18px 0;
 }
 
-header .content {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ ul {
     padding: 90px 0;
 }
 
-#hero-section .content {
+#hero-section .container {
     display: flex;
     gap: 40px;
 }
@@ -112,7 +112,7 @@ button {
     justify-content: center;
 }
 
-#information-section .content {
+#information-section .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ button {
     color: var(--quote-text-color);
 }
 
-#quote-section .content {
+#quote-section .container {
     width: 800px;
 }
 
@@ -184,7 +184,7 @@ button {
     color: white;
 }
 
-#sign-up-section .content {
+#sign-up-section .container {
     display: flex;
     justify-content: space-between;
     background-color: var(--button-color);

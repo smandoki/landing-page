@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 :root {
     --dark-background-color: #1F2937;
     --hero-text-color: #E5E7EB;
@@ -15,8 +17,12 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', Arial, sans-serif, 'Times New Roman', Times, serif;
+}
+
 .content {
-    width: 800px;
+    width: 1000px;
 }
 
 /* HEADER STYLING */
@@ -25,6 +31,7 @@ header {
     background-color: var(--dark-background-color);
     display: flex;
     justify-content: center;
+    padding: 18px 0;
 }
 
 header .content {
@@ -35,9 +42,171 @@ header .content {
 
 header h3 {
     color: var(--header-logo-color);
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header a {
     text-decoration: none;
     color: var(--header-link-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* HERO STYLING */
+
+#hero-section {
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: center;
+    padding: 90px 0;
+}
+
+#hero-section .content {
+    display: flex;
+    gap: 40px;
+}
+
+#hero-left h1 {
+    color: var(--hero-heading-color);
+    font-size: 48px;
+}
+
+#hero-left p {
+    color: var(--hero-text-color);
+    font-size: 18px;
+    margin: 5px 0;
+    margin-bottom: 12px;
+}
+
+#placeholder-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 240px;
+    color: white;
+    background-color: #6d747d;
+}
+
+button {
+    background-color: var(--button-color);
+    padding: 10px 32px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* INFORMATION SECTION STYLING */
+
+#information-section {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#information-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information-section h2 {
+    font-size: 36px;
+    color: var(--information-heading-color);
+    margin-bottom: 40px;
+}
+
+#information-cards {
+    display: flex;
+}
+
+.card {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-box {
+    border: solid;
+    border-color: var(--button-color);
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+    color: #4b5563;
+    width: 150px;
+}
+
+/* QUOTE SECTION STYLING */
+
+#quote-section {
+    background-color: var(--quote-section-background-color);
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    color: var(--quote-text-color);
+}
+
+#quote-section .content {
+    width: 800px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sign-up-section {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    color: white;
+}
+
+#sign-up-section .content {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--button-color);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+#sign-up-section button {
+    border: solid;
+    border-color: white;
+}
+
+#sign-up-section h4 {
+    font-size: 24px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    color: white;
+    background-color: var(--dark-background-color);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
